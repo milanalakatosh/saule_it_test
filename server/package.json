@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "^4.2.0",
+    "http-errors": "~1.6.3",
+    "mdbreact": "^5.2.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+  }
+}
+
