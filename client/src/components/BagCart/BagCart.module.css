@@ -10,11 +10,10 @@
 }
 .field_container {
 	width: 745 px;
-	background: lightgrey;
+	background: rgb(106, 104, 104);
 }
 .header {
 	padding: 5px;
-	color: #332a06;
 	font-weight: 600;
 	font-size: 27px;
 	font-family: 'Tenor Sans', sans-serif;

@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import style from './MainPage.module.css';
 import GameData from '../GameData/GameData';
+import LoadingModal from '../LoadingModal/LoadingModal';
 
 export default function MainPage() {
   const navigate = useNavigate();
+  const loadingModal = useSelector((state) => state.loadingModal);
   const [TeamsAndOdds] = useState([
     {
       id: 0,
@@ -66,6 +69,7 @@ export default function MainPage() {
       >
         Go to bag
       </Button>
+      { loadingModal ? <LoadingModal /> : null}
     </div>
   );
 }

@@ -1,5 +1,4 @@
 .category {
-	color: #332a06;
 	font-weight: 600;
 	font-size: 20px;
 	font-family: 'Tenor Sans', sans-serif;
@@ -13,13 +12,13 @@
 	align-items:center;
 	justify-content:center;
 }
-.quest_score {
+.odd {
 	width: 175px;
 	cursor: pointer;
 	justify-content: center;
 }
 
-.quest {
+.team {
 	border: 1px solid #FBE690;
 	height: 70px;
 	flex-wrap: wrap;

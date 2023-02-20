@@ -1,4 +1,4 @@
-.category {
+.team {
 	color: #FBE690;
 	font-weight: 600;
 	font-size: 20px;
@@ -7,23 +7,24 @@
 	font-stretch: ultra-condensed;
 }
 .head {
+	padding: 5% 0;
 	line-height: 1;
 	/* width: 250px; */
 	display:flex;
 	align-items:center;
 	justify-content:center;
 }
-.quest_score {
+.odd_value {
 	width: 175px;
 	cursor: pointer;
 	justify-content: center;
 }
 
-.quest_score:hover {
+.odd_value:hover {
 	background: radial-gradient( #71B2DB, #4B64B9);
 }
 
-.quest {
+.odd {
 	border: 1px solid #FBE690;
 	height: 70px;
 	flex-wrap: wrap;

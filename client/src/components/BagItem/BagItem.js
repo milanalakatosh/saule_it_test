@@ -18,9 +18,9 @@ export default function BagItem({
   return (
     <tbody>
       <tr className="category" style={style}>
-        <th className="quest head" style={style}>{game}</th>
+        <th className="team head" style={style}>{game}</th>
         <td
-          className="quest quest_score"
+          className="team odd"
           // onClick={(event) => userClickHandler(event, title, p1)}
           // onKeyDown={(event) => userClickHandler(event, title, p1)}
         >
