@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux';
-import { betsAndOddsReducer } from './betsAndOddsReducer';
-import { bagReducer } from './bagReducer';
-import { teamsReducer } from './teamsReducer';
+import bagReducer from './bagReducer';
 
-export const rootReducer = combineReducers({
-  teams: teamsReducer,
-  betsAndOdds: betsAndOddsReducer,
+const rootReducer = combineReducers({
   bag: bagReducer,
 });
+
+export default rootReducer;

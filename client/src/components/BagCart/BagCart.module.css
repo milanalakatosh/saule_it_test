@@ -10,21 +10,15 @@
 }
 .field_container {
 	width: 745 px;
-	background: radial-gradient( #001499, #00084D);
-	/* margin: 10%; */
+	background: lightgrey;
 }
 .header {
 	padding: 5px;
-	color: #FBE690;
+	color: #332a06;
 	font-weight: 600;
 	font-size: 27px;
 	font-family: 'Tenor Sans', sans-serif;
 	letter-spacing: -1px;
 	font-stretch: ultra-condensed;
 	border: 1px solid #FBE690;
-}
-.btn {
-	margin: 3%;
-	color: #FBE690;
-	font-weight: 600;
 }

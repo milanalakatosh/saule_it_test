@@ -1,5 +1,5 @@
-export const initState = {
-  teams: {},
-  betsAndOdds: {},
-  bag: {},
+const initState = {
+  bag: [],
 };
+
+export default initState;
